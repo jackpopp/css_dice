@@ -1,15 +1,35 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<title>Virtual Dice</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/core.css">
+		<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+		<script src="assets/js/main.js"></script>
 	</head>
 	<body>
-		<section class="dice">
-			<div class="panel panel-front"></div>
-			<div class="panel panel-back"></div>
-			<div class="panel panel-left"></div>
-			<div class="panel panel-right"></div>
-			<div class="panel panel-top"></div>
-			<div class="panel panel-bottom"></div>
-		</section>
+		<div class="button-holder">
+			<div class="roll-dice button">
+				Roll 
+			</div>
+			<div class="add-dice button">
+				Add Dice
+			</div>
+			<div class="show-result"></div>
+		</div>
+		<div class="dice-holder">
+			<section class="dice-container">
+
+				<div class="dice">
+					<div class="panel panel-one"></div>
+					<div class="panel panel-two"></div>
+					<div class="panel panel-three"></div>
+					<div class="panel panel-four"></div>
+					<div class="panel panel-five"></div>
+					<div class="panel panel-six"></div>
+				</div>
+
+			</section>
+
+		</div>
 	</body>
 </html>
